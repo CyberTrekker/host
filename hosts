@@ -1,12 +1,16 @@
- ############################################# 
-#  ____  _____
-# |  __||_   _|  Cyber Trekker
-# | |     | |    cyber.trekker@protonmail.com
-# | |__   | |
-# |____|  |_|	 ¯\_(ツ)_/¯
-# Created & Maintained by Cyber Trekker
-# 05-2019 to 07-2019 ver 00.03
- #############################################
+#####################################################
+# █▓▒█▓▒█▓▒ ░████████▒                              #
+# █▓▒░         █▓▒░                                 #
+# █▓▒          █▓▒░                                 #
+# ██▓          █▓▒░    Cyber Trekker                #
+# █▓▒          █▓▒░    cyber.trekker@protonmail.com #
+# █▓▒          █▓▒░                                 #
+# █▓▒█▓▒█▓▒    █▓▒░                                 #
+#                                                   #
+# Customized and Maintained by Cyber Trekker        #
+#     ~ H O S T S  C O N F I G U R A T I O N ~      #
+# 05-2019 to 07-2019 ver 00.03                      #
+#####################################################
 
 # Last pertinent data input updated: Wednesday, 17 July 2019 @ 09:25:40 AM AEST.
 
@@ -59,6 +63,7 @@
 #<localhost>
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
+127.0.0.1   alienwarefedora
 255.255.255.255	broadcasthost
 ::1		localhost
 127.0.0.1	local
