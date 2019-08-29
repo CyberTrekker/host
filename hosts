@@ -57,13 +57,6 @@
 # the Android-based device to perform this operation.
 
 # Begin protection input.
-#<localhost>
-127.0.0.1	localhost
-127.0.0.1	localhost.localdomain
-255.255.255.255	broadcasthost
-::1		localhost
-127.0.0.1	local
-
 # The following lines are desirable for IPv6 capable hosts
 ::1		ip6-localhost ip6-loopback
 fe00::0		ip6-localnet
