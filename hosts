@@ -1,15 +1,15 @@
- ############################################# 
+ #############################################
 #  ____  _____
 # |  __||_   _|  Cyber Trekker
 # | |     | |    cyber.trekker@protonmail.com
 # | |__   | |
 # |____|  |_|	 ¯\_(ツ)_/¯
-#   ~ H O S T S  C O N F I G U R A T I O N ~      
+#   ~ H O S T S  C O N F I G U R A T I O N ~
 # Created & Maintained by Cyber Trekker
-# 05-2019 to 08-2019 ver 00.04
+# 05-2019 to 08-2019 ver 00.05
  #############################################
 
-# Last pertinent data input updated: Friday, 23 August, 2019 @ 07:28:05 AM AEST.
+# Last pertinent data input updated: Tuesday, 17 September, 2019 @ 09:34:15 AM AEST.
 
 # Please note, this is the 0.0.0.0 configuration file, instead of the 127.0.0.1 
 # configuration file. It can, however, be altered by the user to the 127.0.0.1
@@ -56,8 +56,12 @@
 # For Android users, place the file in "/system/etc/hosts". User needs root access on
 # the Android-based device to perform this operation.
 
-# Begin protection input.
-# The following lines are desirable for IPv6 capable hosts
+#<localhost>
+127.0.0.1	localhost
+127.0.0.1	localhost.localdomain
+255.255.255.255	broadcasthost
+::1		localhost
+127.0.0.1	local
 ::1		ip6-localhost ip6-loopback
 fe00::0		ip6-localnet
 ff00::0		ip6-mcastprefix
@@ -65,14 +69,9 @@ ff02::1		ip6-allnodes
 ff02::2		ip6-allrouters
 ff02::3		ip6-allhosts
 #fe80::1%lo0	localhost
-#<localhost>
-127.0.0.1	localhost
-127.0.0.1	localhost.localdomain
-255.255.255.255	broadcasthost
-::1		localhost
-127.0.0.1	local
 #</localhost>
 
+# Begin protection input.
 #<shock-sites>
 # For example, to block unpleasant pages, try:
 0.0.0.0 goatse.cx       # More information on sites such as 
@@ -282,7 +281,7 @@ ff02::3		ip6-allhosts
 #<hijack-sites>
 # The sites ads234.com and ads345.com -- These sites hijack internet explorer 
 # and redirect all requests through their servers. You may need to use spyware 
-# removal programs such as SpyBotS&amp;D, AdAware or HijackThis to remove this 
+# removal programs such as SpyBotS&D, AdAware or HijackThis to remove this 
 # nasty parasite. It's possible that blocking these sites using a hosts file 
 # may not work, in which case you should remove the following lines from this
 # file and try the tools listed above immediately. Don't forget to reboot 
@@ -2409,6 +2408,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 jajajaj-thats-you-really.com
 0.0.0.0 janezk.50webs.co
 0.0.0.0 jat01.iwantyourightnow.info
+0.0.0.0 jbbwtetv.xyz
 0.0.0.0 jqueryscript.net
 0.0.0.0 jroqvbvw.info
 0.0.0.0 jujitsu-ostrava.info
@@ -2518,6 +2518,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 metcoc5cm.clarent.com
 0.0.0.0 microsoft.com-it2-dye1.premi-fedelta-degli-utenti.us
 0.0.0.0 microsoft.com-msoft52.info
+0.0.0.0 microsoftsecurity-experts7565.xyz
 0.0.0.0 microsoftsupport.com-support0206.info
 0.0.0.0 microsoftsupport.xyz
 0.0.0.0 miercuri.gq
