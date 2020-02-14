@@ -1,13 +1,11 @@
- #############################################
-#  ____  _____
-# |  __||_   _|  Cyber Trekker
-# | |     | |    cyber.trekker@protonmail.com
-# | |__   | |
-# |____|  |_|	 ¯\_(ツ)_/¯
-#   ~ H O S T S  C O N F I G U R A T I O N ~
+ ##########################################
+# CYB3R TR3KK3R
+# cyber.trekker@protonmail.com
+# ¯\_(ツ)_/¯
+# ~ H O S T S  C O N F I G U R A T I O N ~
 # Created & Maintained by Cyber Trekker
 # 05-2019 to 02-2020 ver 00.07
- #############################################
+ ##########################################
 
 # Last pertinent data input updated: Wednesday, 05 February, 2020 @ 10:07:45 AM AEST.
 
@@ -16,14 +14,14 @@
 # configuration if so desired by replacing the relevant input from 0.0.0.0 to
 # 127.0.0.1.
 
-# As an introduction to the use case of this file, this special hosts file assists
-# in preventing a computing device from connecting to certain hosts on the Internet.
-# By doing so, it serves as an easy, effective, and a convenient way to protect the
-# device from a variety of types of: spyware; reduces bandwidth use; blocks certain
-# pop-up traps; prevents user tracking by way of "web bugs" embedded in spam;
-# provides partial protection to the web browser from particular web-based exploits,
-# and blocks most advertising the user would otherwise be knowingly or unknowingly
-# subjected to on the Internet.
+# As an introduction to the use case of this file, it's a special hosts file that 
+# assists in preventing a computing device from connecting to certain hosts on the 
+# Internet. By doing so, it serves as an easy, effective, and a convenient way to 
+# protect the device from a variety of types of: spyware; reduces bandwidth use; 
+# blocks certain pop-up traps; prevents user tracking by way of "web bugs" embedded 
+# in spam; provides partial protection to the web browser from particular web-based 
+# exploits,and blocks most advertising the user would otherwise be knowingly or 
+# unknowingly subjected to on the Internet.
 
 # This file must be saved as a text file with no extension. (This means the file
 # name should be exactly as below, without a ".txt" appended.) To reiterate, the
@@ -40,7 +38,7 @@
 # 		see: http://support.microsoft.com/kb/2764944
 # The user may have to utilize the text editor on Windows called Notepad, and open
 # it by using "Run as Administrator" to elivate its privilage.
-#
+
 # For Linux, Unix, or OS X, place this file in "/etc/hosts", or on some
 # systems in "/private/etc/hosts". You will require root access. Saving this
 # file to "~/hosts" will allow you to run something like "sudo cp ~/hosts /etc/hosts".
@@ -52,7 +50,7 @@
 # folder and reboot. (something like HD:System Folder:Preferences:Hosts).
 # Alternatively, save it elsewhere on the machine, then go to the TCP/IP control panel
 # and click on "Select hosts file" to read it in.
-#
+
 # For Android users, place the file in "/system/etc/hosts". User needs root access on
 # the Android-based device to perform this operation.
 
@@ -290,7 +288,6 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.ads234.com
 0.0.0.0 www.ads345.com
 #</hijack-sites>
-
 
 #<spyware-sites>
 # Spyware and user tracking
