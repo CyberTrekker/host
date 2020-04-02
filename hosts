@@ -4,24 +4,24 @@
 # ¯\_(ツ)_/¯
 # ~ H O S T S  C O N F I G U R A T I O N ~
 # Created & Maintained by Cyber Trekker
-# 05-2019 to 02-2020 ver 00.07
+# 05-2019 to 04-2020 ver 00.08
  ##########################################
 
-# Last pertinent data input updated: Wednesday, 05 February, 2020 @ 10:07:45 AM AEST.
+# Last pertinent data input updated: Wednesday, 01 April, 2020 @ 08:15:20 AM AEST.
 
 # Please note, this is the 0.0.0.0 configuration file, instead of the 127.0.0.1
 # configuration file. It can, however, be altered by the user to the 127.0.0.1
 # configuration if so desired by replacing the relevant input from 0.0.0.0 to
 # 127.0.0.1.
 
-# As an introduction to the use case of this file, it's a special hosts file that 
-# assists in preventing a computing device from connecting to certain hosts on the 
-# Internet. By doing so, it serves as an easy, effective, and a convenient way to 
-# protect the device from a variety of types of: spyware; reduces bandwidth use; 
-# blocks certain pop-up traps; prevents user tracking by way of "web bugs" embedded 
-# in spam; provides partial protection to the web browser from particular web-based 
-# exploits,and blocks most advertising the user would otherwise be knowingly or 
-# unknowingly subjected to on the Internet.
+# As an introduction to the use case of this file, this special hosts file assists
+# in preventing a computing device from connecting to certain hosts on the Internet.
+# By doing so, it serves as an easy, effective, and a convenient way to protect the
+# device from a variety of types of: spyware; reduces bandwidth use; blocks certain
+# pop-up traps; prevents user tracking by way of "web bugs" embedded in spam;
+# provides partial protection to the web browser from particular web-based exploits,
+# and blocks most advertising the user would otherwise be knowingly or unknowingly
+# subjected to on the Internet.
 
 # This file must be saved as a text file with no extension. (This means the file
 # name should be exactly as below, without a ".txt" appended.) To reiterate, the
@@ -38,7 +38,7 @@
 # 		see: http://support.microsoft.com/kb/2764944
 # The user may have to utilize the text editor on Windows called Notepad, and open
 # it by using "Run as Administrator" to elivate its privilage.
-
+#
 # For Linux, Unix, or OS X, place this file in "/etc/hosts", or on some
 # systems in "/private/etc/hosts". You will require root access. Saving this
 # file to "~/hosts" will allow you to run something like "sudo cp ~/hosts /etc/hosts".
@@ -50,7 +50,7 @@
 # folder and reboot. (something like HD:System Folder:Preferences:Hosts).
 # Alternatively, save it elsewhere on the machine, then go to the TCP/IP control panel
 # and click on "Select hosts file" to read it in.
-
+#
 # For Android users, place the file in "/system/etc/hosts". User needs root access on
 # the Android-based device to perform this operation.
 
@@ -71,7 +71,7 @@ ff02::3		ip6-allhosts
 
 #<shock-sites>
 # For example, to block unpleasant pages, try:
-0.0.0.0 goatse.cx       # More information on sites such as 
+0.0.0.0 goatse.cx       # More information on sites such as
 0.0.0.0 www.goatse.cx   # these can be found in this article
 0.0.0.0 oralse.cx       # en.wikipedia.org/wiki/List_of_shock_sites
 0.0.0.0 www.oralse.cx
@@ -276,12 +276,12 @@ ff02::3		ip6-allhosts
 #</shortcut-examples>
 
 #<hijack-sites>
-# The sites ads234.com and ads345.com -- These sites hijack internet explorer 
-# and redirect all requests through their servers. You may need to use spyware 
-# removal programs such as SpyBotS&D, AdAware or HijackThis to remove this 
-# nasty parasite. It's possible that blocking these sites using a hosts file 
+# The sites ads234.com and ads345.com -- These sites hijack internet explorer
+# and redirect all requests through their servers. You may need to use spyware
+# removal programs such as SpyBotS&D, AdAware or HijackThis to remove this
+# nasty parasite. It's possible that blocking these sites using a hosts file
 # may not work, in which case you should remove the following lines from this
-# file and try the tools listed above immediately. Don't forget to reboot 
+# file and try the tools listed above immediately. Don't forget to reboot
 # after a scan.
 0.0.0.0 ads234.com
 0.0.0.0 ads345.com
@@ -289,14 +289,15 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.ads345.com
 #</hijack-sites>
 
+
 #<spyware-sites>
 # Spyware and user tracking
 # By entering domains here, it will prevent certain companies from
 # gathering information on your surfing habits. These servers do not
 # necessarily serve ads, instead some are used by certain products to
-# "phone home". Others use web cookies to gather statistics on surfing 
-# habits. Among other uses, this is a common tactic by spammers, to 
-# let them know that you have read your mail. 
+# "phone home". Others use web cookies to gather statistics on surfing
+# habits. Among other uses, this is a common tactic by spammers, to
+# let them know that you have read your mail.
 # Uncomment (remove the #) the lines that you wish to block, as some
 # may provide you with services you like.
 
@@ -304,24 +305,24 @@ ff02::3		ip6-allhosts
 #0.0.0.0 auto.search.msn.com  # Microsoft uses this server to redirect
                                 # mistyped URLs to search engines. They
                                 # log all such errors.
-#0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game 
+#0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game
 #0.0.0.0 sitefinder-idn.verisign.com	# of trying to hijack mistyped
-					# URLs to their site. 
+					# URLs to their site.
 					# May break iOS Game Center.
 
-#0.0.0.0 s0.2mdn.net		# This may interfere with some streaming 
+#0.0.0.0 s0.2mdn.net		# This may interfere with some streaming
 				# video on sites such as cbc.ca
 #0.0.0.0 ad.doubleclick.net   # This may interefere with www.sears.com
-				# and potentially other sites. 
+				# and potentially other sites.
 0.0.0.0 media.fastclick.net	# Likewise, this may interfere with some
-0.0.0.0 cdn.fastclick.net	# sites. 
+0.0.0.0 cdn.fastclick.net	# sites.
 #0.0.0.0 ebay.doubleclick.net		# may interfere with ebay
 #0.0.0.0 google-analytics.com			# breaks some sites
 #0.0.0.0 ssl.google-analytics.com
 #0.0.0.0 www.google-analytics.l.google.com
-#0.0.0.0 stat.livejournal.com		# There are reports that this may mess 
+#0.0.0.0 stat.livejournal.com		# There are reports that this may mess
  					# up CSS on livejournal
-#0.0.0.0 stats.surfaid.ihost.com	# This has been known cause 
+#0.0.0.0 stats.surfaid.ihost.com	# This has been known cause
 					# problems with NPR.org
 #0.0.0.0 www.google-analytics.com		# breaks some sites
 #0.0.0.0 ads.imeem.com		# Seems to interfere with the functioning of imeem.com
@@ -359,8 +360,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 addfreestats.com
 0.0.0.0 adelogs.adobe.com	#See http://www.theregister.co.uk/2014/10/07/adobe_digital_editions_4_caught_snooping_into_ebook_collections_of_users/
 0.0.0.0 ademails.com
-0.0.0.0 adlog.com.com # Used by Ziff Davis to serve 
-  # ads and track users across 
+0.0.0.0 adlog.com.com # Used by Ziff Davis to serve
+  # ads and track users across
   # the com.com family of sites
 0.0.0.0 ad-logics.com
 0.0.0.0 admanmail.com
@@ -455,8 +456,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 bluestreak.com
 0.0.0.0 bookproplus.com
 0.0.0.0 brightroll.com
-0.0.0.0 broadcastpc.tv 
-0.0.0.0 report.broadcastpc.tv 
+0.0.0.0 broadcastpc.tv
+0.0.0.0 report.broadcastpc.tv
 0.0.0.0 www.broadcastpc.tv
 0.0.0.0 browser-message.com
 0.0.0.0 brucelead.com
@@ -704,8 +705,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 counter.nowlinux.com
 0.0.0.0 counter.pcgames.de
 0.0.0.0 counter.rambler.ru
-0.0.0.0 counters.auctionhelper.com		# comment these 
-0.0.0.0 counters.auctionwatch.com		# out to allow 
+0.0.0.0 counters.auctionhelper.com		# comment these
+0.0.0.0 counters.auctionwatch.com		# out to allow
 0.0.0.0 counters.auctiva.com			# tracking by
 0.0.0.0 counters.honesty.com			# ebay users
 0.0.0.0 counter.search.bg
@@ -992,6 +993,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 kissmetrics.com
 0.0.0.0 kqzyfj.com
 0.0.0.0 kt4.kliptracker.com
+0.0.0.0 lcprd1.samsungcloudsolution.net
+0.0.0.0 lcprd2.samsungcloudsolution.net
 0.0.0.0 leadpub.com
 0.0.0.0 liapentruromania.ro
 0.0.0.0 lin31.metriweb.be
@@ -1158,6 +1161,7 @@ ff02::3		ip6-allhosts
 #0.0.0.0 nl.sitestat.com	# may interfere with duo.nl
 0.0.0.0 noticias.life
 0.0.0.0 notify1.brucelead.com
+0.0.0.0 notify.bugsnag.com
 0.0.0.0 o.addthis.com
 0.0.0.0 objects.tremormedia.com
 0.0.0.0 okcounter.com
@@ -1355,6 +1359,7 @@ ff02::3		ip6-allhosts
 #0.0.0.0 services.krxd.net
 0.0.0.0 servt.playbuzz.co
 0.0.0.0 se.sitestat.com
+0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sexcounter.com
 0.0.0.0 seznam.hit.gemius.pl
 0.0.0.0 s.go-mpulse.net
@@ -1524,7 +1529,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 straighttangerine.cz.cc
 0.0.0.0 st.sageanalyst.net
 0.0.0.0 sugoicounter.com
-0.0.0.0 s.update.fbsbx.com 
+0.0.0.0 s.update.fbsbx.com
 0.0.0.0 superstats.com
 0.0.0.0 sync.bfmio.com
 0.0.0.0 sync.clickonometrics.pl
@@ -1844,6 +1849,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 trk.cachemetracking.com
 0.0.0.0 trk.kissmetrics.com
 0.0.0.0 trkrpoint.com
+0.0.0.0 trk.securesmrt-dt.com
 0.0.0.0 trk.tidaltv.com
 0.0.0.0 true-counter.com
 0.0.0.0 truecrypt.fr
@@ -1922,7 +1928,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 webhit.aftenposten.no
 0.0.0.0 webhit.afterposten.no
 0.0.0.0 webmasterkai.sitetracker.com
-0.0.0.0 webpdp.gator.com 	
+0.0.0.0 webpdp.gator.com
 #0.0.0.0 webstat.channel4.com
 0.0.0.0 webtrends.telenet.be
 0.0.0.0 webtrends.thisis.co.uk
@@ -2196,7 +2202,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 badmactogoodmac.space
 0.0.0.0 badmactogoodmac.tech
 0.0.0.0 beloysoff.ru
-0.0.0.0 best.aliexpress.com
+0.0.0.0 benefitsorganic.com
 0.0.0.0 bestreview.site
 0.0.0.0 bgl1dr1-a-fixed.sancharnet.in
 0.0.0.0 bgl1pp1-a-fixed.sancharnet.in
@@ -2351,6 +2357,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 filter.mediacpc.com
 0.0.0.0 firefox.net-secure-update.icu
 0.0.0.0 firefox-updater.com
+0.0.0.0 fndsdaytings.com
 0.0.0.0 fr.apple.com-services-assistance-recuperations-des-comptes.com
 0.0.0.0 freecontent.bid
 0.0.0.0 freedailydownload.com
@@ -2873,6 +2880,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 tiku.io
 0.0.0.0 tipsforall.xyz
 0.0.0.0 tivvitter.com
+0.0.0.0 toknowall.com
 0.0.0.0 tomorrownewstoday.com	# I'm not sure what it does, but it seems to be associated with a phishing attempt on Facebook
 0.0.0.0 toolbarbest.biz
 0.0.0.0 toolbarbucks.biz
@@ -2921,6 +2929,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 videoamp.com
 0.0.0.0 videos.dskjkiuw.com
 0.0.0.0 videos.twitter.secure-logins01.com # twitter worm (http://mashable.com/2009/09/23/twitter-worm-dms/)
+0.0.0.0 vip.fortunatetime.xyz
 0.0.0.0 virus-notice.com
 0.0.0.0 voyager1.telesat.com.co
 0.0.0.0 vxiframe.biz
@@ -4437,6 +4446,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 7cnbcnews.com
 0.0.0.0 7n0zz.300prize.7113879.com
 0.0.0.0 7xc4n.com
+0.0.0.0 820.joomsearch.com
 0.0.0.0 829331534d183e7d1f6a-8d91cc88b27b979d0ea53a10ce8855ec.r96.cf5.rackcdn.com
 0.0.0.0 85103.hittail.com
 0.0.0.0 8574dnj3yzjace8c8io6zr9u3n.hop.clickbank.net
@@ -6177,6 +6187,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 ads.mefeedia.com
 0.0.0.0 ads.megaproxy.com
 0.0.0.0 ads.meropar.jp
+0.0.0.0 adsmetadata.startappservice.com
 0.0.0.0 ads.metblogs.com
 0.0.0.0 ads.metropolis.co.jp
 0.0.0.0 ads.mgnetwork.com
@@ -6842,6 +6853,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 aktiv-hirek.net
 0.0.0.0 al1.sharethis.com
 0.0.0.0 alert.police-patrol-agent.com
+0.0.0.0 a.libertystmedia.com
 0.0.0.0 a.ligatus.com
 0.0.0.0 a.ligatus.de
 0.0.0.0 alliance.adbureau.net
@@ -7104,6 +7116,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 baiduccdn1.com
 0.0.0.0 baidutv.baidu.com
 0.0.0.0 bakkecske.net
+0.0.0.0 baldehydesupe.info
 0.0.0.0 b.am15.net
 0.0.0.0 bamulat.blogspot.hu
 0.0.0.0 bananacashback.com
@@ -7980,6 +7993,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 daily-saver.com
 0.0.0.0 damamaty.tk
 0.0.0.0 damavandkuh.com
+0.0.0.0 da.oipzyrzffum.ovh
 0.0.0.0 darakht.com
 0.0.0.0 darmowe-liczniki.info
 0.0.0.0 darmowe-zakupy.com
@@ -7995,6 +8009,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 data.flurry.com
 0.0.0.0 data.namesakeoscilloscopemarquis.com
 0.0.0.0 data.netscope.marktest.pt
+0.0.0.0 date.and-have.fun
 0.0.0.0 datedate.today
 0.0.0.0 date.ventivmedia.com
 0.0.0.0 datingadvertising.com
@@ -8115,6 +8130,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 dra.amazon-adsystem.com
 0.0.0.0 drecentreshu.info
 0.0.0.0 drmcmm.baidu.com
+0.0.0.0 drovederuifswfe.info
 0.0.0.0 drowle.com
 0.0.0.0 dr.soso.com
 0.0.0.0 ds.contextweb.com
@@ -8273,6 +8289,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 face-nemzedek.com
 0.0.0.0 fadadosexo.com.br
 0.0.0.0 f.admob.com
+0.0.0.0 fadskis.com
 0.0.0.0 fajnefanty.com
 0.0.0.0 falkag.net
 0.0.0.0 family-offer.com
@@ -8537,6 +8554,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 getacooltv.com
 0.0.0.0 getafreeiphone.org
 0.0.0.0 getagiftonline.com
+0.0.0.0 getflash-now.com
 0.0.0.0 getlink.pw
 0.0.0.0 getmyads24.com
 0.0.0.0 getmyads.com
@@ -8821,6 +8839,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 i.interia.pl
 0.0.0.0 ikcode.baidu.com
 0.0.0.0 i.laih.com
+0.0.0.0 i.libertystmedia.com
 0.0.0.0 ilinks.industrybrains.com
 0.0.0.0 ilovemobi.com
 0.0.0.0 ilumigrafias.adriancugar.com
@@ -9284,6 +9303,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 lt.andomedia.com
 0.0.0.0 lt.angelfire.com
 0.0.0.0 lucky-day-uk.com
+0.0.0.0 luckymeetyou.com
 0.0.0.0 LUXpolice.com
 0.0.0.0 LUXpolice.net
 0.0.0.0 luxup.ru
@@ -9294,7 +9314,9 @@ ff02::3		ip6-allhosts
 0.0.0.0 l.yieldmanager.net
 0.0.0.0 m1.emea.2mdn.net
 0.0.0.0 m1.emea.2mdn.net.edgesuite.net
+0.0.0.0 m1.nsimg.net
 0.0.0.0 m2.media-box.co
+0.0.0.0 m2.nsimg.net
 0.0.0.0 m2.sexgarantie.nl
 0.0.0.0 m3.2mdn.net
 0.0.0.0 m4.afs.googleadservices.com
@@ -9986,6 +10008,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 partner.wapacz.pl
 0.0.0.0 partner.wapster.pl
 0.0.0.0 partnerwebsites.mistermedia.nl
+0.0.0.0 passeura.com
 0.0.0.0 pathforpoints.com
 0.0.0.0 paulsnetwork.com
 0.0.0.0 payae8moon9.com
@@ -9993,6 +10016,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 pb.tynt.com
 0.0.0.0 pcads.ru
 0.0.0.0 pc-gizmos-ssl.com
+0.0.0.0 pcmuzic.com
 0.0.0.0 pcookie.aliexpress.com
 0.0.0.0 pc-virus-d0l92j2.pw
 0.0.0.0 peaky.tags.yield-atx.com
@@ -10362,6 +10386,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 realizmobi.com
 0.0.0.0 realmedia-a800.d4p.net
 0.0.0.0 realmedia.advance.net
+0.0.0.0 realplayz.com
 0.0.0.0 rebevengwas.com
 0.0.0.0 reboot.sitescout.com
 0.0.0.0 recommendedforyou.xyz
@@ -10642,6 +10667,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 secureads.ft.com
 0.0.0.0 secure.bidvertiser.com
 0.0.0.0 secure.bidvertiserr.com
+0.0.0.0 securecloud-smart.com
 0.0.0.0 securecontactinfo.com
 0.0.0.0 secure.img-cdn.mediaplex.com
 0.0.0.0 secure-js.kontera.com
@@ -11032,8 +11058,10 @@ ff02::3		ip6-allhosts
 0.0.0.0 support-ip.com
 0.0.0.0 support.sweepstakes.com
 0.0.0.0 support-win1230.com
+0.0.0.0 suprama.online
 0.0.0.0 supremeadsonline.com
 0.0.0.0 suresafe1.adsovo.com
+0.0.0.0 surfacecharo.info
 0.0.0.0 surfsecured.net
 0.0.0.0 surplus-suppliers.com
 0.0.0.0 surveycentral.directinsure.info
@@ -11091,6 +11119,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 tag1.webabacus.com
 0.0.0.0 tag.admeld.com
 0.0.0.0 tag.contextweb.com
+0.0.0.0 tag-dyn.omnitagjs.com
 0.0.0.0 tag.regieci.com
 0.0.0.0 tags.bluekai.com
 0.0.0.0 tags.expo9.exponential.com
@@ -11409,6 +11438,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 usatravel-specials.com
 0.0.0.0 usatravel-specials.net
 0.0.0.0 usc.adserver.snapads.com
+0.0.0.0 uscarefusedshi.info
 0.0.0.0 us-choicevalue.com
 0.0.0.0 usdk.batmobi.net
 0.0.0.0 usd.sierra-boa.com
@@ -11456,6 +11486,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 vattacukor.net
 0.0.0.0 vcdn.adnxs.com
 0.0.0.0 vclick.adbrite.com
+0.0.0.0 vda.oipzyrzffum.ovh
 0.0.0.0 veirregnant.club
 0.0.0.0 vendorlist.consensu.org
 0.0.0.0 venetia.iad.appboy.com
@@ -11770,6 +11801,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www1.bannerspace.com
 0.0.0.0 www1.belboon.de
 0.0.0.0 www1.clicktorrent.info
+0.0.0.0 www.1hkfq6598i.com
 0.0.0.0 www1.mpnrs.com
 0.0.0.0 www1.popinads.com
 0.0.0.0 www1.safenyplanet.in
@@ -11787,6 +11819,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www25a.glam.com
 0.0.0.0 www25.glam.com
 0.0.0.0 www2.adireland.com
+0.0.0.0 www2.ad-server.online
 0.0.0.0 www2.adserverpub.com
 0.0.0.0 www2.ad.tomshardware.com
 0.0.0.0 www.2-art-coliseum.com
@@ -12533,6 +12566,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.peachy18.com
 0.0.0.0 www.people-choice-sites.com
 0.0.0.0 www.perfectgirls.net
+0.0.0.0 www.performanceonclick.com
 0.0.0.0 www.persgroepadvertising.nl
 0.0.0.0 www.personalcare-offer.com
 0.0.0.0 www.personalcashbailout.com
@@ -12842,6 +12876,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 xml.explorads.com
 0.0.0.0 xmlheads.com
 0.0.0.0 xml.mediashakers.com
+0.0.0.0 xml.realtime-bid.com
 0.0.0.0 xml.yepmedia.com
 0.0.0.0 x.mochiads.com
 0.0.0.0 xn--lt-68s.com
@@ -13752,7 +13787,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.searchforit.com
 0.0.0.0 www.searchv.com
 0.0.0.0 www.secretosx.com
-0.0.0.0 www.seductiveamateurs.com	
+0.0.0.0 www.seductiveamateurs.com
 0.0.0.0 www.smsmovies.net
 0.0.0.0 www.wowjs.1www.cn
 0.0.0.0 www.xxxnations.com
@@ -13763,7 +13798,7 @@ ff02::3		ip6-allhosts
 
 #<ecard-scam-sites>
 
-# malicious e-card -- these sites send out mass quantities of spam 
+# malicious e-card -- these sites send out mass quantities of spam
 	# and some distribute adware and spyware
 0.0.0.0 123greetings.com	# contains one link to distributor of adware or spyware
 0.0.0.0 2000greetings.com
@@ -13806,7 +13841,7 @@ ff02::3		ip6-allhosts
 
 #<wiki-spam-sites>
 
-# message board and wiki spam -- these sites are linked in 
+# message board and wiki spam -- these sites are linked in
 	# message board spam and are unlikely to be real sites
 0.0.0.0 10pg.scl5fyd.info
 0.0.0.0 21jewelry.com
@@ -14620,7 +14655,7 @@ ff02::3		ip6-allhosts
 
 #<Windows10>
 
-# Windows 10 reporting domains. 
+# Windows 10 reporting domains.
 0.0.0.0 a.ads2.msads.net
 0.0.0.0 adnexus.net
 0.0.0.0 aidps.atdmt.com
@@ -14650,9 +14685,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 sO.2mdn.net
 0.0.0.0 statsfe2.ws.microsoft.com
 0.0.0.0 telemetry.appex.bing.net
-0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 wes.df.telemetry.microsoft.com
 #</Windows10>
 
 # Feel free to copy and distribute this file under the non-commercial (free-of-charge) paradigm.
-# End file.
+# END FILE
