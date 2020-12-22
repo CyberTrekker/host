@@ -14,14 +14,14 @@
 # configuration if so desired by replacing the relevant input from 0.0.0.0 to
 # 127.0.0.1.
 
-# As an introduction to the use case of this file, this special hosts file assists
-# in preventing a computing device from connecting to certain hosts on the Internet.
-# By doing so, it serves as an easy, effective, and a convenient way to protect the
-# device from a variety of types of: spyware; reduces bandwidth use; blocks certain
-# pop-up traps; prevents user tracking by way of "web bugs" embedded in spam;
-# provides partial protection to the web browser from particular web-based exploits,
-# and blocks most advertising the user would otherwise be knowingly or unknowingly
-# subjected to on the Internet.
+# As a brief introduction to the use case of this file, this special hosts file 
+# assists in preventing a computing device from connecting to certain hosts on the 
+# Internet. By doing so, it serves as an easy, effective, and a convenient way to 
+# protect the device from a variety of types of: spyware; reduces bandwidth use; 
+# blocks particular pop-up traps; prevents user tracking by way of "web bugs" 
+# embedded in spam; provides partial protection to the web browser from certain
+# web-based exploits; and blocks most advertising the user would otherwise be 
+# knowingly or unknowingly subjected to on the Internet.
 
 # This file must be saved as a text file with no extension. (This means the file
 # name should be exactly as below, without a ".txt" appended.) To reiterate, the
