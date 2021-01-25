@@ -4,10 +4,10 @@
 # ¯\_(ツ)_/¯
 # ~ H O S T S  C O N F I G U R A T I O N ~
 # Created & Maintained by Cyber Trekker
-# 05-2019 to 01-2021 ver 00.25
+# 05-2019 to 01-2021 ver 00.27
  ##########################################
 
-# Last pertinent data input updated: Friday, 22 January, 2021 @ 09:52 AM AEST.
+# Last pertinent data input updated: Monday, 25 January, 2021 @ 09:52 AM AEST.
 
 # Please note, this is the 0.0.0.0 configuration file, instead of the 127.0.0.1
 # configuration file. It can, however, be altered by the user to the 127.0.0.1
@@ -44,7 +44,6 @@
 # file to "~/hosts" will allow you to run something like "sudo cp ~/hosts /etc/hosts".
 # For OS/2 copy the file to "%ETC%\HOSTS" and in the CONFIG.SYS file, ensure that the
 # line "SET USE_HOSTS_FIRST=1" is included.
-# For BeOS place it at "/boot/beos/etc/hosts".
 # On a Netware system, the location is System\etc\hosts".
 # For Macintosh (pre OS X), place the file in the Mac System Folder or Preferences
 # folder and reboot. (something like HD:System Folder:Preferences:Hosts).
