@@ -4,10 +4,10 @@
 # ¯\_(ツ)_/¯
 # ~ H O S T S  C O N F I G U R A T I O N ~
 # Created & Maintained by Cyber Trekker
-# 05-2019 to 01-2021 ver 00.27
+# 05-2019 to 01-2021 ver 00.28
  ##########################################
 
-# Last pertinent data input updated: Monday, 25 January, 2021 @ 05:33 PM AEST.
+# Last pertinent data input updated: Monday, 25 January, 2021 @ 05:49 PM AEST.
 
 # Please note, this is the 0.0.0.0 configuration file, instead of the 127.0.0.1
 # configuration file. It can, however, be altered by the user to the 127.0.0.1
@@ -48,7 +48,7 @@
 # For Macintosh (pre OS X), place the file in the Mac System Folder or Preferences
 # folder and reboot. (something like HD:System Folder:Preferences:Hosts).
 # Alternatively, save it elsewhere on the machine, then go to the TCP/IP control panel
-# and click on "Select hosts file" to read it in.
+# and click on "Select hosts file" to read it.
 #
 # For Android users, place the file in "/system/etc/hosts". The user needs root access
 # on the Android-based device to perform this operation.
