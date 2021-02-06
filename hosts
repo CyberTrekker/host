@@ -54,7 +54,6 @@
 # For Android users, place the file in "/system/etc/hosts". The user needs root access
 # on the Android-based device to perform this operation.
 
-
 #<localhost>
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
